@@ -8,7 +8,7 @@
     <string name="initial_quantity_value">2</string>
     <string name="Toppings"><font color="@color/black"><b>toppings</b></font></string>
     <string name="WhippedCream">Whipped Cream  <font color="@color/light_bluegrey"><small><i>($1/cup)</i></small></font> </string>
-    <string name="Chocolate">Chocolate  <font color="@color/light_bluegrey"><small><i>($1/cup)</i></small></font> </string>
+    <string name="Chocolate">Chocolate  <font color="@color/light_bluegrey"><small><i>($2/cup)</i></small></font> </string>
     <string name="hintEditTextView">Name</string>
     <string name="Output">Name: %1$s
         \nAdd Whipped cream? %2$b

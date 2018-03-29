@@ -4,7 +4,7 @@
     <string name="hintEditTextView">Nombre</string>
     <string name="Toppings"><font color="@color/black"><b>Ingredientes</b></font></string>
     <string name="WhippedCream">Crema batida  <font color="@color/light_bluegrey"><small><i>($1/copa)</i></small></font></string>
-    <string name="Chocolate">Chocolate  <font color="@color/light_bluegrey"><small><i>($1/copa)</i></small></font></string>
+    <string name="Chocolate">Chocolate  <font color="@color/light_bluegrey"><small><i>($2/copa)</i></small></font></string>
     <string name="Quantity"><font color="@color/black"><b>Cantidad</b></font>  <font color="@color/light_bluegrey"><small><i>($5/copa)</i></small></font></string>
     <string name="Order">Ordenar</string>
     <string name="Price"><font color="@color/black"><b>Orden Sumario</b></font></string>
