@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    <item name="wrap_content" format="integer" type="dimen">-2</item>
+
+    <dimen name="layout_matchParent">@dimen/match_parent</dimen>
+    <dimen name="layout_wrapContent">@dimen/wrap_content</dimen>
+    <dimen name="layout_width">48dp</dimen>
+    <dimen name="layout_hight">48dp</dimen>
+    <dimen name="marginLeft">16dp</dimen>
+    <dimen name="marginLeft1">8dp</dimen>
+    <dimen name="marginStart">16dp</dimen>
+    <dimen name="marginTop">16dp</dimen>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="textSizeOutput">20sp</dimen>
+    <dimen name="checkbox_padding">24dp</dimen>
+</resources>
