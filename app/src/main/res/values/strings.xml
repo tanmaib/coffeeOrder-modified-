@@ -1,11 +1,22 @@
 <resources>
     <string name="app_name">Just Java 2</string>
-    <string name="Quantity"><font color="@color/black"><b>Quantity</b></font>  <font color="@color/light_bluegrey"><small><i>($5/cup)</i></small></font> </string>
+    <string name="Quantity"><font color="@color/black"><b>Quantity</b></font>
+        <font color="@color/light_bluegrey"><small><i>($5/cup)</i></small></font>
+    </string>
     <string name="Price"><font color="@color/black"><b>Order Summary</b></font></string>
     <string name="Order">order</string>
+    <string name="initial_quantity_value">2</string>
     <string name="Toppings"><font color="@color/black"><b>toppings</b></font></string>
     <string name="WhippedCream">Whipped Cream  <font color="@color/light_bluegrey"><small><i>($1/cup)</i></small></font> </string>
     <string name="Chocolate">Chocolate  <font color="@color/light_bluegrey"><small><i>($1/cup)</i></small></font> </string>
     <string name="hintEditTextView">Name</string>
-    <string name="Output">Name: %1$s \nAdd Whipped cream? %2$b \nAdd Chocolate? %3$b \nQuantity: %4$d \nTotal: $ %5$d \nThank You!</string>
+    <string name="Output">Name: %1$s
+        \nAdd Whipped cream? %2$b
+        \nAdd Chocolate? %3$b
+        \nQuantity: %4$d
+        \nTotal: $ %5$d
+        \nThank You!
+    </string>
+    <string name="order_summary_email_subject">Just Java order for %s</string>
+    <string name="order_summary">$0</string>
 </resources>

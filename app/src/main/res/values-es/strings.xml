@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Sólo Java 2</string>
+    <string name="hintEditTextView">Nombre</string>
+    <string name="Toppings"><font color="@color/black"><b>Ingredientes</b></font></string>
+    <string name="WhippedCream">Crema batida  <font color="@color/light_bluegrey"><small><i>($1/copa)</i></small></font></string>
+    <string name="Chocolate">Chocolate  <font color="@color/light_bluegrey"><small><i>($1/copa)</i></small></font></string>
+    <string name="Quantity"><font color="@color/black"><b>Cantidad</b></font>  <font color="@color/light_bluegrey"><small><i>($5/copa)</i></small></font></string>
+    <string name="Order">Ordenar</string>
+    <string name="Price"><font color="@color/black"><b>Orden Sumario</b></font></string>
+    <string name="initial_quantity_value">2</string>
+    <string name="Output">Nombre: <xliff:g id="name" example="Amy">%1$s</xliff:g>
+        \nAgregue la crema batida? <xliff:g id="addWhippedCream" example="true">%2$b</xliff:g>
+        \nAgregue el chocolate? <xliff:g id="addChocolate" example="true">%3$b</xliff:g>
+        \nCantidad: <xliff:g id="quantity" example="2">%4$d</xliff:g>
+        \nTotal: <xliff:g id="price" example="$10">%5$d</xliff:g>
+        \nGracias!
+    </string>
+    <string name="order_summary_email_subject">Sólo java para <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="order_summary">$0</string>
+</resources>
