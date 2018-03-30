@@ -13,4 +13,26 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="View_1">
+        <item name="android:layout_width">@dimen/wrap_content</item>
+        <item name="android:layout_height">@dimen/wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft</item>
+        <item name="android:layout_marginStart">@dimen/marginStart</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+    </style>
+
+    <style name="Button_1">
+        <item name="android:layout_width">@dimen/layout_width</item>
+        <item name="android:layout_height">@dimen/layout_hight</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+    </style>
+
+    <style name="Button_2">
+        <item name="android:layout_width">@dimen/layout_width</item>
+        <item name="android:layout_height">@dimen/layout_hight</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft1</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+    </style>
+
 </resources>

@@ -19,10 +19,10 @@ public class MainActivity extends AppCompatActivity {
 
     //Boolean hasWhippedCreme, hasChocolate;
     static final String key1 = "orderTotal", key2 = "toppingsTotal", key3 = "orderSummary", key4 = "Focus";
-    int noofcoffee = 0, orderTotal, toppingsTotal = 0, pricecoffee, priceCreamTopping, priceChocolateTopping;
-    TextView quantityTextView, orderSummaryTextView;
-    CheckBox whippedCreamCheckBox, chocolateCheckBox;
-    EditText nameEditTextVIew;
+    private int noofcoffee = 0, orderTotal, toppingsTotal = 0, pricecoffee, priceCreamTopping, priceChocolateTopping;
+    private TextView quantityTextView, orderSummaryTextView;
+    private CheckBox whippedCreamCheckBox, chocolateCheckBox;
+    private EditText nameEditTextVIew;
     String orderSummary, Name;
     View focusedChild;
 

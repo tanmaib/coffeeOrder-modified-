@@ -28,22 +28,14 @@
             android:maxLines="2" />
 
         <TextView
-            android:layout_width="@dimen/wrap_content"
-            android:layout_height="@dimen/wrap_content"
-            android:layout_marginLeft="@dimen/marginLeft"
-            android:layout_marginStart="@dimen/marginStart"
-            android:layout_marginTop="@dimen/marginTop"
+            style="@style/View_1"
             android:onClick="onCheckboxClicked"
             android:text="@string/Toppings"
             android:textAllCaps="true" />
 
         <CheckBox
             android:id="@+id/whippedCream"
-            android:layout_width="@dimen/wrap_content"
-            android:layout_height="@dimen/wrap_content"
-            android:layout_marginLeft="@dimen/marginLeft"
-            android:layout_marginStart="@dimen/marginStart"
-            android:layout_marginTop="@dimen/marginTop"
+            style="@style/View_1"
             android:onClick="onCheckboxClicked"
             android:paddingLeft="@dimen/checkbox_padding"
             android:text="@string/WhippedCream"
@@ -61,11 +53,7 @@
             android:textSize="@dimen/textSize" />
 
         <TextView
-            android:layout_width="@dimen/wrap_content"
-            android:layout_height="@dimen/wrap_content"
-            android:layout_marginLeft="@dimen/marginLeft"
-            android:layout_marginStart="@dimen/marginStart"
-            android:layout_marginTop="@dimen/marginTop"
+            style="@style/View_1"
             android:text="@string/Quantity"
             android:textAllCaps="true" />
 
@@ -75,10 +63,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:layout_width="@dimen/layout_width"
-                android:layout_height="@dimen/layout_hight"
-                android:layout_marginLeft="@dimen/marginLeft1"
-                android:layout_marginTop="@dimen/marginTop"
+                style="@style/Button_1"
                 android:onClick="decrement"
                 android:text="-" />
 
@@ -93,42 +78,26 @@
                 android:textSize="@dimen/textSize" />
 
             <Button
-                android:layout_width="@dimen/layout_width"
-                android:layout_height="@dimen/layout_hight"
-                android:layout_marginLeft="@dimen/marginLeft1"
-                android:layout_marginStart="@dimen/marginStart"
-                android:layout_marginTop="@dimen/marginTop"
+                style="@style/Button_2"
                 android:onClick="increment"
                 android:text="+" />
 
         </LinearLayout>
 
         <TextView
-            android:layout_width="@dimen/wrap_content"
-            android:layout_height="@dimen/wrap_content"
-            android:layout_marginLeft="@dimen/marginLeft"
-            android:layout_marginStart="@dimen/marginStart"
-            android:layout_marginTop="@dimen/marginTop"
+            style="@style/View_1"
             android:text="@string/Price"
             android:textAllCaps="true" />
 
         <TextView
             android:id="@+id/order_summary_text_view"
-            android:layout_width="@dimen/wrap_content"
-            android:layout_height="@dimen/wrap_content"
-            android:layout_marginLeft="@dimen/marginLeft"
-            android:layout_marginStart="@dimen/marginStart"
-            android:layout_marginTop="@dimen/marginTop"
+            style="@style/View_1"
             android:text="@string/order_summary"
             android:textColor="#000000"
             android:textSize="@dimen/textSizeOutput" />
 
         <Button
-            android:layout_width="@dimen/wrap_content"
-            android:layout_height="@dimen/wrap_content"
-            android:layout_marginLeft="@dimen/marginLeft"
-            android:layout_marginStart="@dimen/marginStart"
-            android:layout_marginTop="@dimen/marginTop"
+            style="@style/View_1"
             android:onClick="submitOrder"
             android:text="@string/Order"
             android:textAllCaps="true" />
